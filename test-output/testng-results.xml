@@ -1,32 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
+    <line>
+      <![CDATA[Getting ReportConnection Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Runner Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launch Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser navigate Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser maximize Successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicked on my account hearder link successful]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login account hearder link successful]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Register account verified with invalid input]]>
+    </line>
+    <line>
+      <![CDATA[logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[terminate Test Runner Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Terminate ReportConnection Successfully]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-01-10T13:33:27 IST" name="Default suite" finished-at="2025-01-10T13:33:27 IST" duration-ms="96">
+  <suite started-at="2025-01-29T13:58:47 IST" name="Suite_FunctonalityTest" finished-at="2025-01-29T13:59:07 IST" duration-ms="20073">
     <groups>
     </groups>
-    <test started-at="2025-01-10T13:33:27 IST" name="Default test" finished-at="2025-01-10T13:33:27 IST" duration-ms="96">
-      <class name="Demo.DemoTask">
-        <test-method signature="demoTask1()[pri:0, instance:Demo.DemoTask@28701274]" started-at="2025-01-10T13:33:27 IST" name="demoTask1" finished-at="2025-01-10T13:33:27 IST" duration-ms="33" status="FAIL">
-          <exception class="java.nio.file.InvalidPathException">
+    <test started-at="2025-01-29T13:58:47 IST" name="Chrome_Test" finished-at="2025-01-29T13:59:07 IST" duration-ms="20073">
+      <class name="org.QAfoxProject.RegisterAccount.RegisterAccountTest">
+        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:58:47 IST" name="getReportConnection" finished-at="2025-01-29T13:58:47 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting ReportConnection Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getReportConnection -->
+        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:58:47 IST" name="getTestRunnerConnection" finished-at="2025-01-29T13:58:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Runner Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTestRunnerConnection -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:58:47 IST" name="browserSetup" finished-at="2025-01-29T13:59:01 IST" duration-ms="13244" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launch Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser navigate Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser maximize Successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicked on my account hearder link successful]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login account hearder link successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:01 IST" name="login" finished-at="2025-01-29T13:59:02 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyWithInValidInput()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:02 IST" name="verifyWithInValidInput" finished-at="2025-01-29T13:59:02 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register account verified with invalid input]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWithInValidInput -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:02 IST" name="logout" finished-at="2025-01-29T13:59:02 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:02 IST" name="login" finished-at="2025-01-29T13:59:07 IST" duration-ms="4925" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Trailing char < > at index 28: .\AdvanceReports\report.html ]]>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.112)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [378e326170b24d566e54ad8c7687c9aa, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.112, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\swath\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58232/devtoo..., se:cdpVersion: 132.0.6834.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 378e326170b24d566e54ad8c7687c9aa]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.nio.file.InvalidPathException: Trailing char < > at index 28: .\AdvanceReports\report.html 
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:213)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.io.File.toPath(File.java:2413)
-at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:40)
-at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
-at Demo.DemoTask.demoTask1(DemoTask.java:17)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.112)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [378e326170b24d566e54ad8c7687c9aa, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.112, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\swath\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58232/devtoo..., se:cdpVersion: 132.0.6834.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 378e326170b24d566e54ad8c7687c9aa
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at org.QAfoxProject.GenaricUtility.BaseConfiguration.login(BaseConfiguration.java:90)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -37,25 +156,112 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.nio.file.InvalidPathException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTask1 -->
-      </class> <!-- Demo.DemoTask -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- login -->
+        <test-method signature="verifyWithValidInput()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:07 IST" name="verifyWithValidInput" finished-at="2025-01-29T13:59:07 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.112)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [378e326170b24d566e54ad8c7687c9aa, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.112, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\swath\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58232/devtoo..., se:cdpVersion: 132.0.6834.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 378e326170b24d566e54ad8c7687c9aa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.112)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [378e326170b24d566e54ad8c7687c9aa, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.112, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\swath\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58232/devtoo..., se:cdpVersion: 132.0.6834.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 378e326170b24d566e54ad8c7687c9aa
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at org.QAfoxProject.GenaricUtility.BaseConfiguration.login(BaseConfiguration.java:90)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithValidInput -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:07 IST" name="logout" finished-at="2025-01-29T13:59:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:07 IST" name="browserTermination" finished-at="2025-01-29T13:59:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method is-config="true" signature="terminateTestRunnerConnection()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:07 IST" name="terminateTestRunnerConnection" finished-at="2025-01-29T13:59:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[terminate Test Runner Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateTestRunnerConnection -->
+        <test-method is-config="true" signature="terminationReportConnection()[pri:0, instance:org.QAfoxProject.RegisterAccount.RegisterAccountTest@4e08711f]" started-at="2025-01-29T13:59:08 IST" name="terminationReportConnection" finished-at="2025-01-29T13:59:08 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Terminate ReportConnection Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminationReportConnection -->
+      </class> <!-- org.QAfoxProject.RegisterAccount.RegisterAccountTest -->
+    </test> <!-- Chrome_Test -->
+  </suite> <!-- Suite_FunctonalityTest -->
 </testng-results>
